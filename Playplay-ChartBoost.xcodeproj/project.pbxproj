@@ -1,0 +1,547 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CDAF5F8A23EFBAAB00696D46 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDAF5F8923EFBAAB00696D46 /* AppDelegate.swift */; };
+		CDAF5F8C23EFBAAB00696D46 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDAF5F8B23EFBAAB00696D46 /* SceneDelegate.swift */; };
+		CDAF5F8E23EFBAAB00696D46 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDAF5F8D23EFBAAB00696D46 /* ViewController.swift */; };
+		CDAF5F9123EFBAAB00696D46 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDAF5F8F23EFBAAB00696D46 /* Main.storyboard */; };
+		CDAF5F9423EFBAAB00696D46 /* Playplay_ChartBoost.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CDAF5F9223EFBAAB00696D46 /* Playplay_ChartBoost.xcdatamodeld */; };
+		CDAF5F9623EFBAAD00696D46 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDAF5F9523EFBAAD00696D46 /* Assets.xcassets */; };
+		CDAF5F9923EFBAAD00696D46 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDAF5F9723EFBAAD00696D46 /* LaunchScreen.storyboard */; };
+		CDAF5FA423EFBAAD00696D46 /* Playplay_ChartBoostTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDAF5FA323EFBAAD00696D46 /* Playplay_ChartBoostTests.swift */; };
+		CDAF5FB923EFBB8900696D46 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDAF5FB823EFBB8900696D46 /* StoreKit.framework */; };
+		CDAF5FBB23EFBB9400696D46 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDAF5FBA23EFBB9400696D46 /* Foundation.framework */; };
+		CDAF5FBD23EFBB9B00696D46 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDAF5FBC23EFBB9B00696D46 /* CoreGraphics.framework */; };
+		CDAF5FBF23EFBBA200696D46 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDAF5FBE23EFBBA200696D46 /* WebKit.framework */; };
+		CDAF5FC123EFBBA900696D46 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDAF5FC023EFBBA900696D46 /* AVFoundation.framework */; };
+		CDAF5FC323EFBBAF00696D46 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDAF5FC223EFBBAF00696D46 /* UIKit.framework */; };
+		CDAF5FC523EFBBD700696D46 /* Chartboost.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDAF5FC423EFBBD700696D46 /* Chartboost.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CDAF5FA023EFBAAD00696D46 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CDAF5F7E23EFBAAB00696D46 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CDAF5F8523EFBAAB00696D46;
+			remoteInfo = "Playplay-ChartBoost";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CDAF5F8623EFBAAB00696D46 /* Playplay-ChartBoost.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Playplay-ChartBoost.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDAF5F8923EFBAAB00696D46 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CDAF5F8B23EFBAAB00696D46 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		CDAF5F8D23EFBAAB00696D46 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CDAF5F9023EFBAAB00696D46 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CDAF5F9323EFBAAB00696D46 /* Playplay_ChartBoost.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Playplay_ChartBoost.xcdatamodel; sourceTree = "<group>"; };
+		CDAF5F9523EFBAAD00696D46 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CDAF5F9823EFBAAD00696D46 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CDAF5F9A23EFBAAD00696D46 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CDAF5F9F23EFBAAD00696D46 /* Playplay-ChartBoostTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Playplay-ChartBoostTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDAF5FA323EFBAAD00696D46 /* Playplay_ChartBoostTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Playplay_ChartBoostTests.swift; sourceTree = "<group>"; };
+		CDAF5FA523EFBAAD00696D46 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CDAF5FB823EFBB8900696D46 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		CDAF5FBA23EFBB9400696D46 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CDAF5FBC23EFBB9B00696D46 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CDAF5FBE23EFBBA200696D46 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		CDAF5FC023EFBBA900696D46 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		CDAF5FC223EFBBAF00696D46 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CDAF5FC423EFBBD700696D46 /* Chartboost.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Chartboost.framework; sourceTree = "<group>"; };
+		CDAF5FC723EFBFA400696D46 /* Playplay-ChartBoost-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Playplay-ChartBoost-Bridging-Header.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CDAF5F8323EFBAAB00696D46 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDAF5FC523EFBBD700696D46 /* Chartboost.framework in Frameworks */,
+				CDAF5FBF23EFBBA200696D46 /* WebKit.framework in Frameworks */,
+				CDAF5FBD23EFBB9B00696D46 /* CoreGraphics.framework in Frameworks */,
+				CDAF5FC123EFBBA900696D46 /* AVFoundation.framework in Frameworks */,
+				CDAF5FBB23EFBB9400696D46 /* Foundation.framework in Frameworks */,
+				CDAF5FC323EFBBAF00696D46 /* UIKit.framework in Frameworks */,
+				CDAF5FB923EFBB8900696D46 /* StoreKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDAF5F9C23EFBAAD00696D46 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CDAF5F7D23EFBAAB00696D46 = {
+			isa = PBXGroup;
+			children = (
+				CDAF5F8823EFBAAB00696D46 /* Playplay-ChartBoost */,
+				CDAF5FA223EFBAAD00696D46 /* Playplay-ChartBoostTests */,
+				CDAF5F8723EFBAAB00696D46 /* Products */,
+				CDAF5FB723EFBB8900696D46 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CDAF5F8723EFBAAB00696D46 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CDAF5F8623EFBAAB00696D46 /* Playplay-ChartBoost.app */,
+				CDAF5F9F23EFBAAD00696D46 /* Playplay-ChartBoostTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CDAF5F8823EFBAAB00696D46 /* Playplay-ChartBoost */ = {
+			isa = PBXGroup;
+			children = (
+				CDAF5F8923EFBAAB00696D46 /* AppDelegate.swift */,
+				CDAF5F8B23EFBAAB00696D46 /* SceneDelegate.swift */,
+				CDAF5F8D23EFBAAB00696D46 /* ViewController.swift */,
+				CDAF5F8F23EFBAAB00696D46 /* Main.storyboard */,
+				CDAF5F9523EFBAAD00696D46 /* Assets.xcassets */,
+				CDAF5F9723EFBAAD00696D46 /* LaunchScreen.storyboard */,
+				CDAF5F9A23EFBAAD00696D46 /* Info.plist */,
+				CDAF5F9223EFBAAB00696D46 /* Playplay_ChartBoost.xcdatamodeld */,
+				CDAF5FC723EFBFA400696D46 /* Playplay-ChartBoost-Bridging-Header.h */,
+			);
+			path = "Playplay-ChartBoost";
+			sourceTree = "<group>";
+		};
+		CDAF5FA223EFBAAD00696D46 /* Playplay-ChartBoostTests */ = {
+			isa = PBXGroup;
+			children = (
+				CDAF5FA323EFBAAD00696D46 /* Playplay_ChartBoostTests.swift */,
+				CDAF5FA523EFBAAD00696D46 /* Info.plist */,
+			);
+			path = "Playplay-ChartBoostTests";
+			sourceTree = "<group>";
+		};
+		CDAF5FB723EFBB8900696D46 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CDAF5FC423EFBBD700696D46 /* Chartboost.framework */,
+				CDAF5FC223EFBBAF00696D46 /* UIKit.framework */,
+				CDAF5FC023EFBBA900696D46 /* AVFoundation.framework */,
+				CDAF5FBE23EFBBA200696D46 /* WebKit.framework */,
+				CDAF5FBC23EFBB9B00696D46 /* CoreGraphics.framework */,
+				CDAF5FBA23EFBB9400696D46 /* Foundation.framework */,
+				CDAF5FB823EFBB8900696D46 /* StoreKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CDAF5F8523EFBAAB00696D46 /* Playplay-ChartBoost */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CDAF5FA823EFBAAD00696D46 /* Build configuration list for PBXNativeTarget "Playplay-ChartBoost" */;
+			buildPhases = (
+				CDAF5F8223EFBAAB00696D46 /* Sources */,
+				CDAF5F8323EFBAAB00696D46 /* Frameworks */,
+				CDAF5F8423EFBAAB00696D46 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Playplay-ChartBoost";
+			productName = "Playplay-ChartBoost";
+			productReference = CDAF5F8623EFBAAB00696D46 /* Playplay-ChartBoost.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CDAF5F9E23EFBAAD00696D46 /* Playplay-ChartBoostTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CDAF5FAB23EFBAAD00696D46 /* Build configuration list for PBXNativeTarget "Playplay-ChartBoostTests" */;
+			buildPhases = (
+				CDAF5F9B23EFBAAD00696D46 /* Sources */,
+				CDAF5F9C23EFBAAD00696D46 /* Frameworks */,
+				CDAF5F9D23EFBAAD00696D46 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CDAF5FA123EFBAAD00696D46 /* PBXTargetDependency */,
+			);
+			name = "Playplay-ChartBoostTests";
+			productName = "Playplay-ChartBoostTests";
+			productReference = CDAF5F9F23EFBAAD00696D46 /* Playplay-ChartBoostTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CDAF5F7E23EFBAAB00696D46 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = "Chandra Welim";
+				TargetAttributes = {
+					CDAF5F8523EFBAAB00696D46 = {
+						CreatedOnToolsVersion = 11.2.1;
+						LastSwiftMigration = 1120;
+					};
+					CDAF5F9E23EFBAAD00696D46 = {
+						CreatedOnToolsVersion = 11.2.1;
+						TestTargetID = CDAF5F8523EFBAAB00696D46;
+					};
+				};
+			};
+			buildConfigurationList = CDAF5F8123EFBAAB00696D46 /* Build configuration list for PBXProject "Playplay-ChartBoost" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CDAF5F7D23EFBAAB00696D46;
+			productRefGroup = CDAF5F8723EFBAAB00696D46 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CDAF5F8523EFBAAB00696D46 /* Playplay-ChartBoost */,
+				CDAF5F9E23EFBAAD00696D46 /* Playplay-ChartBoostTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CDAF5F8423EFBAAB00696D46 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDAF5F9923EFBAAD00696D46 /* LaunchScreen.storyboard in Resources */,
+				CDAF5F9623EFBAAD00696D46 /* Assets.xcassets in Resources */,
+				CDAF5F9123EFBAAB00696D46 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDAF5F9D23EFBAAD00696D46 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CDAF5F8223EFBAAB00696D46 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDAF5F9423EFBAAB00696D46 /* Playplay_ChartBoost.xcdatamodeld in Sources */,
+				CDAF5F8E23EFBAAB00696D46 /* ViewController.swift in Sources */,
+				CDAF5F8A23EFBAAB00696D46 /* AppDelegate.swift in Sources */,
+				CDAF5F8C23EFBAAB00696D46 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDAF5F9B23EFBAAD00696D46 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDAF5FA423EFBAAD00696D46 /* Playplay_ChartBoostTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CDAF5FA123EFBAAD00696D46 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CDAF5F8523EFBAAB00696D46 /* Playplay-ChartBoost */;
+			targetProxy = CDAF5FA023EFBAAD00696D46 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CDAF5F8F23EFBAAB00696D46 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CDAF5F9023EFBAAB00696D46 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CDAF5F9723EFBAAD00696D46 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CDAF5F9823EFBAAD00696D46 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CDAF5FA623EFBAAD00696D46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CDAF5FA723EFBAAD00696D46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CDAF5FA923EFBAAD00696D46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CG5UT86E9K;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/Framework",
+				);
+				INFOPLIST_FILE = "Playplay-ChartBoost/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = "co.welim.Playplay-ChartBoost";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Playplay-ChartBoost/Playplay-ChartBoost-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CDAF5FAA23EFBAAD00696D46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CG5UT86E9K;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/Framework",
+				);
+				INFOPLIST_FILE = "Playplay-ChartBoost/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = "co.welim.Playplay-ChartBoost";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Playplay-ChartBoost/Playplay-ChartBoost-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CDAF5FAC23EFBAAD00696D46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CG5UT86E9K;
+				INFOPLIST_FILE = "Playplay-ChartBoostTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "co.welim.Playplay-ChartBoostTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Playplay-ChartBoost.app/Playplay-ChartBoost";
+			};
+			name = Debug;
+		};
+		CDAF5FAD23EFBAAD00696D46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CG5UT86E9K;
+				INFOPLIST_FILE = "Playplay-ChartBoostTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "co.welim.Playplay-ChartBoostTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Playplay-ChartBoost.app/Playplay-ChartBoost";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CDAF5F8123EFBAAB00696D46 /* Build configuration list for PBXProject "Playplay-ChartBoost" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDAF5FA623EFBAAD00696D46 /* Debug */,
+				CDAF5FA723EFBAAD00696D46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CDAF5FA823EFBAAD00696D46 /* Build configuration list for PBXNativeTarget "Playplay-ChartBoost" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDAF5FA923EFBAAD00696D46 /* Debug */,
+				CDAF5FAA23EFBAAD00696D46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CDAF5FAB23EFBAAD00696D46 /* Build configuration list for PBXNativeTarget "Playplay-ChartBoostTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDAF5FAC23EFBAAD00696D46 /* Debug */,
+				CDAF5FAD23EFBAAD00696D46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		CDAF5F9223EFBAAB00696D46 /* Playplay_ChartBoost.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				CDAF5F9323EFBAAB00696D46 /* Playplay_ChartBoost.xcdatamodel */,
+			);
+			currentVersion = CDAF5F9323EFBAAB00696D46 /* Playplay_ChartBoost.xcdatamodel */;
+			path = Playplay_ChartBoost.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = CDAF5F7E23EFBAAB00696D46 /* Project object */;
+}
